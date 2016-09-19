@@ -1,5 +1,8 @@
 {
     "name": "Nibs",
     "description": "Customer loyalty application",
+    "env": {
+         "PRODUCT_FAMILY": "Nibs"
+    },
     "addons": ["heroku-postgresql:hobby-dev"]
 }
