@@ -2,7 +2,8 @@
     "name": "Nibs",
     "description": "Customer loyalty application",
     "env": {
-         "PRODUCT_FAMILY": "Nibs"
+         "PRODUCT_FAMILY": "Pilot",
+	 "CONTACTS_ACCOUNT_ID":"00161000003Jka8"
     },
-    "addons": ["heroku-postgresql:hobby-dev"]
+    "addons": ["heroku-postgresql:hobby-dev", "herokuconnect"]
 }
